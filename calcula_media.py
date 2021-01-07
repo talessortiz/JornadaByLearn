@@ -5,7 +5,7 @@ def calcularMedia(notas):
   return media
 
 def verificarAprovacao(media):
-  print(f'A média do aluno é:', media)
+  print(f'A média do aluno é: {media})
   if media > 7:
     print('Aluno aprovado!')
   else:
